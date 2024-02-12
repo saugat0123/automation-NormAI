@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T22:19:59 NPT" name="FUNCTIONAL TEST SUITEE" finished-at="2024-02-12T22:20:27 NPT" duration-ms="27924">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T22:19:59 NPT" name="Functional Tests" finished-at="2024-02-12T22:20:27 NPT" duration-ms="27924">
+      <class name="testCases.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:19:59 NPT" name="setup" finished-at="2024-02-12T22:20:02 NPT" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:02 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:03 NPT" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[character limit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[characterlimit8@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaaaaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:03 NPT" name="teardown" finished-at="2024-02-12T22:20:03 NPT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:03 NPT" name="setup" finished-at="2024-02-12T22:20:05 NPT" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:05 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:07 NPT" duration-ms="1625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[capital required]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nocapital@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[capitalrequired]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:07 NPT" name="teardown" finished-at="2024-02-12T22:20:07 NPT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:07 NPT" name="setup" finished-at="2024-02-12T22:20:08 NPT" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:08 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:10 NPT" duration-ms="1614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[number required]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[numbermust@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Numberrequired]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:10 NPT" name="teardown" finished-at="2024-02-12T22:20:10 NPT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:10 NPT" name="setup" finished-at="2024-02-12T22:20:12 NPT" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:12 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:13 NPT" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[special char required]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[specialcharactersreq@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sp3cialcharactersreq]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:13 NPT" name="teardown" finished-at="2024-02-12T22:20:13 NPT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:13 NPT" name="setup" finished-at="2024-02-12T22:20:15 NPT" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:15 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:17 NPT" duration-ms="1437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank email pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:17 NPT" name="teardown" finished-at="2024-02-12T22:20:17 NPT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:17 NPT" name="setup" finished-at="2024-02-12T22:20:18 NPT" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:18 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:20 NPT" duration-ms="1637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:20 NPT" name="teardown" finished-at="2024-02-12T22:20:20 NPT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:20 NPT" name="setup" finished-at="2024-02-12T22:20:22 NPT" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:22 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:23 NPT" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[normai@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:23 NPT" name="teardown" finished-at="2024-02-12T22:20:23 NPT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:23 NPT" name="setup" finished-at="2024-02-12T22:20:25 NPT" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:25 NPT" name="LoginTest" data-provider="testdata" finished-at="2024-02-12T22:20:26 NPT" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both correct]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saugat.dahal@bitskraft.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lambofgod123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Login@f0c8a99]" started-at="2024-02-12T22:20:26 NPT" name="teardown" finished-at="2024-02-12T22:20:27 NPT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Login -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- FUNCTIONAL TEST SUITEE -->
+</testng-results>
