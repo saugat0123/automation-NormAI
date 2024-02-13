@@ -25,34 +25,37 @@ public class Login extends BaseClass {
 		loginPage.enterEmail(email);
 		loginPage.enterPassword(password);
 		loginPage.clickContinue();
-		Thread.sleep(1000);
-		
-		if (scenario.equals("character limit")) {
-			Assert.assertTrue(loginPage.characterLimit().isDisplayed(), "Character limit error message not seen");
-		}
-		else if (scenario.equals("capital required")) {
-			Assert.assertTrue(loginPage.noCapitalLetter().isDisplayed(), "Capital letter error message not seen");
-		}
-		else if (scenario.equals("number required")) {
-	        Assert.assertTrue(loginPage.numberIsMust().isDisplayed(), "Number is must error message not seen");
-		}
-		else if (scenario.equals("blank email pass")) {
-	        Assert.assertTrue(loginPage.emailRequired().isDisplayed()&& loginPage.passRequired().isDisplayed(), "Email and pass required error message not seen");
-		}
-		else if (scenario.equals("blank email")) {
-			Assert.assertTrue(loginPage.emailRequired().isDisplayed(), "Email required error message not seen");
-		}
-		else if (scenario.equals("special char required")) {
-	        Assert.assertTrue(loginPage.specialChar().isDisplayed(), "Special character required error message not seen");
-		}
-		else if (scenario.equals("blank pass")) {
-			Assert.assertTrue(loginPage.passRequired().isDisplayed(), "Password required error message not seen");
-		}
-		else if (scenario.equals("both correct")) {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			wait.until(ExpectedConditions.visibilityOf(loginPage.logo()));
-			Assert.assertTrue(loginPage.logo().isDisplayed(), "Logo not seen");
-		}
+//		Thread.sleep(1000);
+
+        switch (scenario) {
+            case "character limit":
+                Assert.assertTrue(loginPage.characterLimit().isDisplayed(), "Character limit error message not seen");
+                break;
+            case "capital required":
+                Assert.assertTrue(loginPage.noCapitalLetter().isDisplayed(), "Capital letter error message not seen");
+                break;
+            case "number required":
+                Assert.assertTrue(loginPage.numberIsMust().isDisplayed(), "Number is must error message not seen");
+                break;
+            case "blank email pass":
+                Assert.assertTrue(loginPage.emailRequired().isDisplayed() && loginPage.passRequired().isDisplayed(),
+                        "Email and pass required error message not seen");
+                break;
+            case "blank email":
+                Assert.assertTrue(loginPage.emailRequired().isDisplayed(), "Email required error message not seen");
+                break;
+            case "special char required":
+                Assert.assertTrue(loginPage.specialChar().isDisplayed(), "Special character required error message not seen");
+                break;
+            case "blank pass":
+                Assert.assertTrue(loginPage.passRequired().isDisplayed(), "Password required error message not seen");
+                break;
+            case "both correct":
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                wait.until(ExpectedConditions.visibilityOf(loginPage.logo()));
+                Assert.assertTrue(loginPage.logo().isDisplayed(), "Logo not seen");
+                break;
+        }
 	}
 
 }
