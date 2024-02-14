@@ -11,7 +11,7 @@ import org.testng.Assert;
 
 import commons.BaseClass;
 
-public class LoginPage extends BaseClass{
+public class LoginPage {
 	
 	WebDriver driver;
 
@@ -40,13 +40,13 @@ public class LoginPage extends BaseClass{
 	}
 	
 	public void enterEmail(String email) {
-		driver.findElement(enterEmail).click();;
-		driver.findElement(enterEmail).sendKeys(email);
+		driver.findElement(enterEmail).click();
+        driver.findElement(enterEmail).sendKeys(email);
 	}
 	
 	public void enterPassword(String password) {
-		driver.findElement(enterPassword).click();;
-		driver.findElement(enterPassword).sendKeys(password);
+		driver.findElement(enterPassword).click();
+        driver.findElement(enterPassword).sendKeys(password);
 	}
 	
 	public void clickContinue() {
