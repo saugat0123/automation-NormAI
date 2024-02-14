@@ -14,7 +14,7 @@ import commons.BaseClass;
 public class LoginPage extends BaseClass{
 	
 	WebDriver driver;
-	
+
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -32,14 +32,12 @@ public class LoginPage extends BaseClass{
 	By numberMust = By.xpath("//p[normalize-space()='Needs a number']");
 	By emailReq = By.xpath("//p[normalize-space()='Email is required']");
 	By passReq = By.xpath("//p[normalize-space()='Password is required']");
-	
+
+	public String expectedURL = "https://app.norm.ai/projects";
+
 	public void continueWithEmail() {
 		driver.findElement(conWithEmail).click();
 	}
-	
-//	public WebElement isLogin() {
-//		return driver.findElement(isLoginPage);
-//	}
 	
 	public void enterEmail(String email) {
 		driver.findElement(enterEmail).click();;

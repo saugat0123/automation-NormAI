@@ -51,9 +51,10 @@ public class Login extends BaseClass {
                 Assert.assertTrue(loginPage.passRequired().isDisplayed(), "Password required error message not seen");
                 break;
             case "both correct":
-                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-                wait.until(ExpectedConditions.visibilityOf(loginPage.logo()));
-                Assert.assertTrue(loginPage.logo().isDisplayed(), "Logo not seen");
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+                wait.until(ExpectedConditions.urlToBe(loginPage.expectedURL));
+//                Assert.assertTrue(loginPage.logo().isDisplayed(), "Logo not seen");
+                Assert.assertEquals(driver.getCurrentUrl(),loginPage.expectedURL,"Did not land on projects page");
                 break;
         }
 	}
